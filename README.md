@@ -16,9 +16,10 @@ public $helpers = array('Format');
 
 # Usage
 
-`
+```
 <?= $this->Format->function(); ?>
-`
+```
+
 # Copyright and license
 
 The MIT License (MIT)
