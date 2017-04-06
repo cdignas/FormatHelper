@@ -8,11 +8,17 @@ Simple Helper File for CakePHP with many Functions like Date, Byte or URL Format
 
 Copy the Helper File in ```app/View/Helper```
 
-Add the Line to your Controller that will Use the Helper oder in AppController to use it everywhere
+Add the Line to your Controller that will Use the Helper or in AppController to use it everywhere
 
 ```
 public $helpers = array('Format');
 ```
+
+# Usage
+
+`
+<?= $this->Format->function(); ?>
+`
 # Copyright and license
 
 The MIT License (MIT)
