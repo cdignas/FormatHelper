@@ -28,24 +28,43 @@ For Using the ```toGermanPhoneFormat()``` Function you have to import [libphonen
 
 
 ```formatDate($date, $format = "d.m.Y")```
+
 ```formatBytes($bytes, $precision = 2)```
+
 ```getStatusString($statusId)```
+
 ```getDay($date, $prefix = "")```
+
 ```getMonth($date)```
+
 ```getYear($date)```
+
 ```formatDateTime($date)```
+
 ```toGermanDate($date)```
+
 ```toGermanDateWithTime($date)```
+
 ```toGermanDateWithWeekday($date)```
+
 ```toGermanDateWithFullMonth($date)```
+
 ```toGermanDateWithoutYear($date)```
+
 ```toGermanDateWithoutDay($date)```
+
 ```toGermanPhoneFormat($number)```
+
 ```formatURL($url)```
+
 ```removeHTTP($url)```
+
 ```translateMonthToGerman($englishMonth)```
+
 ```showNewerDate($firstDate = null, $secondDate = null)```
+
 ```getAge($bithdayDate = null)```
+
 ```getLastLogin($date)```
 
 # Copyright and license
