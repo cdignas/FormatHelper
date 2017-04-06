@@ -19,6 +19,9 @@ public $helpers = array('Format');
 ```
 <?= $this->Format->function(); ?>
 ```
+# Functions
+
+*** formatDate($date, $format = "d.m.Y") ***
 
 # Copyright and license
 
