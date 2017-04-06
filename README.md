@@ -21,7 +21,7 @@ public $helpers = array('Format');
 ```
 # Functions
 
-*** formatDate($date, $format = "d.m.Y") ***
+**formatDate($date, $format = "d.m.Y")**
 
 # Copyright and license
 
