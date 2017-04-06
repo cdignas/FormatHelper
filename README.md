@@ -21,8 +21,28 @@ public $helpers = array('Format');
 ```
 # Functions
 
-**formatDate($date, $format = "d.m.Y")**
-
+```
+public function formatDate($date, $format = "d.m.Y")
+public function formatBytes($bytes, $precision = 2)
+public function getStatusString($statusId)
+public function getDay($date, $prefix = "")
+public function getMonth($date)
+public function getYear($date)
+public function formatDateTime($date)
+public function toGermanDate($date)
+public function toGermanDateWithTime($date)
+public function toGermanDateWithWeekday($date)
+public function toGermanDateWithFullMonth($date)
+public function toGermanDateWithoutYear($date)
+public function toGermanDateWithoutDay($date)
+public function toGermanPhoneFormat($number)
+public function formatURL($url)
+public function removeHTTP($url)
+public function translateMonthToGerman($englishMonth)
+public function showNewerDate($firstDate = null, $secondDate = null)
+public function getAge($bithdayDate = null)
+public function getLastLogin($date) 
+```
 # Copyright and license
 
 The MIT License (MIT)
