@@ -19,6 +19,11 @@ public $helpers = array('Format');
 ```
 <?= $this->Format->function(); ?>
 ```
+
+# Requirements 
+
+For Using the ```toGermanPhoneFormat()``` Function you have to import [libphonenumber-for-php](https://github.com/giggsey/libphonenumber-for-php)
+
 # Functions
 
 ```
