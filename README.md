@@ -20,10 +20,6 @@ public $helpers = array('Format');
 <?= $this->Format->function(); ?>
 ```
 
-# Requirements 
-
-For Using the ```toGermanPhoneFormat()``` Function you have to import [libphonenumber-for-php](https://github.com/giggsey/libphonenumber-for-php)
-
 # Functions
 
 
@@ -66,6 +62,10 @@ For Using the ```toGermanPhoneFormat()``` Function you have to import [libphonen
 ```getAge($bithdayDate = null)```
 
 ```getLastLogin($date)```
+
+# Requirements 
+
+For Using the ```toGermanPhoneFormat()``` Function you have to import [libphonenumber-for-php](https://github.com/giggsey/libphonenumber-for-php)
 
 # Copyright and license
 
